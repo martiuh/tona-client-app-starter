@@ -1,5 +1,5 @@
 import React from "react";
-import { render, getAllByAltText, getAllByText } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import createStore from "createStore";
 import { Provider } from "react-redux";
